@@ -24,7 +24,7 @@ func main() {
 		} else {
 			body, err := os.ReadFile(rootDir + path)
 			if err != nil {
-				log.Println("unable to read file: %v", err)
+				log.Printf("unable to read file: %v", err)
 			}
 
 			s = append(s, string(body))
