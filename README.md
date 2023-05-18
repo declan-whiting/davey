@@ -3,8 +3,8 @@ A simple Go tool which concatenates files in a directory in to a another file wi
 
 # Useage examples
 
-- `davey . # current directory` 
-- `davey <path/to/directory> # any other directory`
+- `davey . *#current directory*` 
+- `davey <path/to/directory> *#any other directory*`
 
 
 # TODO
