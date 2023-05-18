@@ -1,5 +1,11 @@
-# davey
-A simple Go tool which concatenates files in a directory. Written for my friend Dave. Who needed to concatenate files within a directory. 
+# Davey
+A simple Go tool which concatenates files in a directory in to a another file within the same directory. Written for my friend Dave. Who needed to concatenate files within a directory. 
+
+# Useage examples
+
+`davey .` 
+`davey <path/to/directory>`
+
 
 # TODO
 - [x] Walk a directory.
