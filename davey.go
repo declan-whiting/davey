@@ -10,8 +10,9 @@ import (
 )
 
 func main() {
+	args := os.Args
 	var s []string
-	rootDir := "../testingDir/"
+	rootDir := args[1]
 	fileSystem := os.DirFS(rootDir)
 	fs.WalkDir(fileSystem, ".", func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
