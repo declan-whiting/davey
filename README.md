@@ -6,13 +6,15 @@ A simple Go tool which concatenates files in a directory in to a another file wi
 - `davey .` *current directory* 
 - `davey <path/to/directory>` *any other directory*
 
+> **Note**  
+> This assumes that you have added Davey to your system path. 
 
 # TODO
 - [x] Walk a directory.
 - [x] Write the contents of each file to the terminal.
 - [x] Write the contemts of each file to a single file.
 - [x] Add CLI arguments.
-- [ ] Create initial release. :rocket:
+- [x] Create initial release. :rocket:
 - [ ] Integrate with https://github.com/spf13/cobra
 - [ ] Add configuration.
 - [ ] Add filters.
